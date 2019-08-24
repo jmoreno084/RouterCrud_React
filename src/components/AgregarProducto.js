@@ -5,7 +5,7 @@ import Swal from 'sweetalert2';
 import {withRouter} from 'react-router-dom';
 
 
-function AgregarProducto({history}) {
+function AgregarProducto({history, guardarRecargarProductos}) {
 
     // reinicio de variables    
     const [nombrePlatillo, guardarNombre] = useState('');
@@ -32,7 +32,7 @@ function AgregarProducto({history}) {
             const resultado = await axios.post('http://localhost:4000/restaurant', {
                 nombrePlatillo: nombrePlatillo,
                 precioPlatillo: precioPlatillo,
-                categoriaPlatillo: categoriaPlatillo
+                categoria: categoriaPlatillo
             });
 
             if(resultado.status===201) {
@@ -52,7 +52,8 @@ function AgregarProducto({history}) {
         }
 
         // redirigir al usuario a productos
-        history.push('/productos');
+        guardarRecargarProductos(true);
+        history.push('/productos');        
     }
 
     return (

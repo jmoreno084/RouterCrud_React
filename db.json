@@ -25,12 +25,6 @@
       "id": 4
     },
     {
-      "precioPlatillo": "6400",
-      "nombrePlatillo": "Super Agua de Jamaica",
-      "categoria": "bebida",
-      "id": 5
-    },
-    {
       "precioPlatillo": "3200",
       "nombrePlatillo": "milhoja de chocolate",
       "categoria": "postre",
@@ -43,8 +37,8 @@
       "id": 7
     },
     {
-      "nombrePlatillo": "chuletas de cerdo",
-      "precioPlatillo": "16000",
+      "nombrePlatillo": "chuletas de cerdo en barbeque",
+      "precioPlatillo": "18900",
       "categoria": "cortes",
       "id": 8
     }

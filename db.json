@@ -1,0 +1,40 @@
+{
+  "restaurant": [
+    {
+      "precioPlatillo": "200",
+      "nombrePlatillo": "Cheesecake",
+      "categoria": "postres",
+      "id": 1
+    },
+    {
+      "precioPlatillo": "300",
+      "nombrePlatillo": "Baby Beef",
+      "categoria": "cortes",
+      "id": 2
+    },
+    {
+      "nombrePlatillo": "burrito tradicional",
+      "precioPlatillo": "16000",
+      "categoriaPlatillo": "cortes",
+      "id": 3
+    },
+    {
+      "nombrePlatillo": "osobuko",
+      "precioPlatillo": "36000",
+      "categoriaPlatillo": "cortes",
+      "id": 4
+    },
+    {
+      "nombrePlatillo": "Agua de Jamaica",
+      "precioPlatillo": "6400",
+      "categoriaPlatillo": "bebida",
+      "id": 5
+    },
+    {
+      "nombrePlatillo": "milhoja de chocolate",
+      "precioPlatillo": "2500",
+      "categoriaPlatillo": "postre",
+      "id": 6
+    }
+  ]
+}
